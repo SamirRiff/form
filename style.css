@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-image: url(https://cdn.wallpapersafari.com/53/16/7mKVlT.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 140px;
+    top: -70px;
+}
+.form {
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    background: rgba(17, 8, 8, 0.877);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-46%, 48%);
+}
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    padding-top: 20px;
+
+}
+.input-box {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    border: none;
+    outline: none;      
+}
+
+input[type="text"],[type="password"] {
+    height: 30px;
+    width: 100%;
+    background: none;
+    outline-style: none;
+    margin: 10px auto;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+p {
+   color: white;
+   font-size: medium;
+   padding: 15px;
+}
+a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: bisque;
+}
+div .btn {
+    position: relative;
+    margin: 30px auto;
+    left: 37%;
+    width: 60px;
+    height: 30px;
+    font-size: large;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+} 
+div .btn:hover {
+    background: black;
+    border-radius: 20px;
+}
+
+
